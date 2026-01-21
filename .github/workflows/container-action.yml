@@ -1,6 +1,5 @@
 name: run container action
 description: A simple container action that greets the user
-author: prashant 
 
 on:
   push:
