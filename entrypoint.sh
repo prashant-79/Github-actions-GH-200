@@ -1,5 +1,12 @@
-#!/bin/bash
-set -e 
+#!/bin/sh
+set -e
 
-NAME=$1
-echo "Hello, $NAME!"
+echo "✅ Container action started"
+echo "Arguments received: $@"
+
+# Example logic
+if [ -n "$1" ]; then
+  echo "Hello, $1 👋"
+else
+  echo "Hello, World 👋"
+fi
