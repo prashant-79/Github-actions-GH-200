@@ -1,0 +1,20 @@
+name: run container action
+description: A simple container action that greets the user
+author: prashant 
+
+on push:
+  branches:
+    - main
+
+jobs:
+  run-container-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checout@v3
+
+      - name: run my container action
+        use: prashant-79/Github-actions-GH-200@v1
+        with:
+          name: "Prashant"
+          
