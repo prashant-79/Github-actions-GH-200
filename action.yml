@@ -1,6 +1,6 @@
 name: "MY CONTAINER ACTION"
 description: "A simple container action that greets the user"
-auther: "prashant"
+author: "prashant"
 
 inputs:
   name:
