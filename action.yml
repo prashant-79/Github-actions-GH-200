@@ -1,0 +1,15 @@
+name: "MY CONTAINER ACTION"
+description: "A simple container action that greets the user"
+auther: "prashant"
+
+inputs:
+  name:
+    description: "The name of the person to greet"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - "${{ inputs.name }}"
