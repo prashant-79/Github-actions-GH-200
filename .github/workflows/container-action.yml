@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: run my container action
-        uses: prashant-79/Github-actions-GH-200@main
+        uses: prashant-79/Github-actions-GH-200@v1.0.0
         with:
           name: "Prashant"
           
