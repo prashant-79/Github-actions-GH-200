@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
-        uses: actions/checout@v3
+        uses: actions/checkout@v3
 
       - name: run my container action
         uses: prashant-79/Github-actions-GH-200@v1
